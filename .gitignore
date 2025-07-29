@@ -1,0 +1,19 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local/temporary artifacts
+artifacts/
+_tmp_*.txt
+synthesized_memory.md
+repaired_tagged_memory.json
+*.backup.json
+*.bak
+
+# Keys / env
+.env
+.env.*
+.openai-key
+# VSCode misc
+.vscode/

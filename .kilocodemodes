@@ -1,0 +1,25 @@
+- slug: summarize
+  name: Summarize Code
+  roleDefinition: >
+    You are a senior developer. Your task is to summarize the current code file to help others understand what it does.
+  groups:
+    - command
+  source: command
+  match:
+    fileExtensions:
+      - .py
+      - .js
+      - .ts
+
+- slug: plan-code
+  name: Plan Code
+  roleDefinition: >
+    You are a high-level AI engineer. Your job is to plan out the code architecture before anything is written.
+  groups:
+    - command
+  source: command
+  match:
+    fileExtensions:
+      - .py
+      - .js
+      - .ts
