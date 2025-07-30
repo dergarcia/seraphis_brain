@@ -62,5 +62,61 @@
     "score": 8.5,
     "chunk_id": 2,
     "timestamp": "2025-07-30T19:56:54+0000"
+  },
+  {
+    "question": "What should I ship next to improve Seraphis velocity?",
+    "answer": "To improve Seraphis' velocity, you should focus on the following top priorities in the current build:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).\n3. Structuring refined data into a specific format (priority score: 0.4).\n4. Importing necessary libraries (priority score: 0.3).\n5. Initializing core memory as an empty list (priority score: 0.2).",
+    "category": "system_planning",
+    "score": 8.6,
+    "chunk_id": 3,
+    "timestamp": "2025-07-30T20:04:10+0000"
+  },
+  {
+    "question": "Top 3 marketing experiments we should run this month?",
+    "answer": "The top 3 marketing experiments to run this month are not specified in the provided memory. Please provide additional context or data related to marketing experiments for a more tailored response.",
+    "category": "marketing",
+    "score": 8.0,
+    "chunk_id": 4,
+    "timestamp": "2025-07-30T20:04:15+0000"
+  },
+  {
+    "question": "What should the ops checklist include before a release?",
+    "answer": "The ops checklist before a release should include the following priorities:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).\n3. Structuring refined data into a specific format (priority score: 0.4).\n4. Importing necessary libraries (priority score: 0.3).\n5. Initializing core memory as an empty list (priority score: 0.2).",
+    "category": "operations",
+    "score": 7.8,
+    "chunk_id": 5,
+    "timestamp": "2025-07-30T20:04:21+0000"
+  },
+  {
+    "question": "List the next two engineering tasks Seraphis should tackle to improve reliability. For each task include: goal, acceptance criteria, owner, and a 3-day timebox.",
+    "answer": "1. **Task: Load Reflected Memory from JSON File**  \n   - **Goal:** Ensure reliable loading of reflected memory data.  \n   - **Acceptance Criteria:** Successful loading of data without errors; data integrity verified.  \n   - **Owner:** Engineering Team Lead  \n   - **Timebox:** 3 days  \n\n2. **Task: Process Data Entries to Extract Content**  \n   - **Goal:** Accurately extract original content, summaries, insights, and applications from data entries.  \n   - **Acceptance Criteria:** All data entries processed correctly; outputs match expected formats and content.  \n   - **Owner:** Data Processing Specialist  \n   - **Timebox:** 3 days",
+    "category": "system_planning",
+    "score": 8.8,
+    "chunk_id": 6,
+    "timestamp": "2025-07-30T20:15:09+0000"
+  },
+  {
+    "question": "Create a pre-release ops checklist for Seraphis: data backups, guardrail validation, memory integrity checks, smoke tests, rollback plan, and owner sign-offs.",
+    "answer": "**Pre-Release Ops Checklist for Seraphis:**\n\n1. **Data Backups**\n   - Ensure all current data is backed up securely.\n\n2. **Guardrail Validation**\n   - Validate that all safety mechanisms are in place and functioning.\n\n3. **Memory Integrity Checks**\n   - Verify the integrity of loaded reflected memory from the JSON file.\n\n4. **Smoke Tests**\n   - Conduct smoke tests to ensure basic functionality is operational.\n\n5. **Rollback Plan**\n   - Prepare a rollback plan in case of deployment failure.\n\n6. **Owner Sign-Offs**\n   - Obtain sign-offs from relevant stakeholders before release.",
+    "category": "operations",
+    "score": 7.9,
+    "chunk_id": 7,
+    "timestamp": "2025-07-30T20:23:34+0000"
+  },
+  {
+    "question": "What should I ship next to improve Seraphis velocity? Give one high-impact change with scope, risk, and test plan.",
+    "answer": "To improve Seraphis' velocity, you should ship the task of **Loading Reflected Memory from a JSON File**. \n\n- **Scope:** Implement a reliable mechanism to load reflected memory data from a JSON file, ensuring data integrity and error-free loading.\n- **Risk:** Potential issues with data format inconsistencies or loading errors could arise, impacting the overall functionality.\n- **Test Plan:** \n  1. Create unit tests to validate the loading process against various JSON file formats.\n  2. Verify data integrity by comparing loaded data with the original source.\n  3. Conduct integration tests to ensure the loading process works seamlessly with subsequent data processing tasks.\n\nThis task has a high priority score (0.6) and is crucial for enhancing both velocity and reliability in the current build.",
+    "category": "system_planning",
+    "score": 8.6,
+    "chunk_id": 8,
+    "timestamp": "2025-07-30T20:23:53+0000"
+  },
+  {
+    "question": "Top 3 marketing experiments we should run this month for Seraphis; include success metric and cost band.",
+    "answer": "Here are the top 3 marketing experiments to run this month for Seraphis:\n\n1. **Experiment: Targeted Email Campaign**\n   - **Success Metric:** Open and click-through rates.\n   - **Cost Band:** $500 - $1,000.\n\n2. **Experiment: Social Media Engagement Challenge**\n   - **Success Metric:** Increase in follower count and engagement rate (likes, shares, comments).\n   - **Cost Band:** $300 - $700.\n\n3. **Experiment: Content Marketing (Blog Series)**\n   - **Success Metric:** Website traffic and lead generation from blog posts.\n   - **Cost Band:** $200 - $600.",
+    "category": "marketing",
+    "score": 8.0,
+    "chunk_id": 9,
+    "timestamp": "2025-07-30T20:24:04+0000"
   }
 ]
