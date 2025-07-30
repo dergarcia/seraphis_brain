@@ -84,7 +84,7 @@ def main():
     entries = load_entries()
     entries.append(entry)
     save_entries(entries)
-    print("✓ Memory entry added and saved.")
+    print("Memory entry added and saved.")
 
 if __name__ == "__main__":
     main()

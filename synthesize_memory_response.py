@@ -87,7 +87,7 @@ def main():
     with open(OUT_MD, "w", encoding="utf-8") as f:
         f.write(answer + "\n")
 
-    print(f"✓ Synthesized memory saved to {OUT_MD}")
+    print(f"Synthesized memory saved to {OUT_MD}")
 
 if __name__ == "__main__":
     main()

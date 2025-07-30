@@ -14,5 +14,53 @@
     "score": 9.0,
     "chunk_id": 1,
     "timestamp": "2025-07-30T18:27:26+0000"
+  },
+  {
+    "question": "What should I ship next to improve Seraphis reliability?",
+    "answer": "To improve Seraphis' reliability, you should focus on the following top priorities in the current build:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).\n3. Structuring refined data into a specific format (priority score: 0.4).\n4. Importing necessary libraries (priority score: 0.3).\n5. Initializing core memory as an empty list (priority score: 0.2).",
+    "category": "system_planning",
+    "score": 8.5,
+    "chunk_id": 2,
+    "timestamp": "2025-07-30T18:55:31+0000"
+  },
+  {
+    "question": "What should I ship next to improve Seraphis reliability?",
+    "answer": "To improve Seraphis' reliability, focus on the following top priorities in the current build:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).\n3. Structuring refined data into a specific format (priority score: 0.4).\n4. Importing necessary libraries (priority score: 0.3).\n5. Initializing core memory as an empty list (priority score: 0.2).",
+    "category": "system_planning",
+    "score": 8.5,
+    "chunk_id": 2,
+    "timestamp": "2025-07-30T18:56:43+0000"
+  },
+  {
+    "question": "What should I ship next to improve Seraphis reliability?",
+    "answer": "To improve Seraphis' reliability, focus on the following top priorities in the current build:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).\n3. Structuring refined data into a specific format (priority score: 0.4).\n4. Importing necessary libraries (priority score: 0.3).\n5. Initializing core memory as an empty list (priority score: 0.2).",
+    "category": "system_planning",
+    "score": 8.5,
+    "chunk_id": 2,
+    "timestamp": "2025-07-30T19:03:16+0000"
+  },
+  {
+    "question": "What should I ship next to improve Seraphis reliability?",
+    "answer": "To improve Seraphis' reliability, focus on the following top priorities in the current build:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).\n3. Structuring refined data into a specific format (priority score: 0.4).\n4. Importing necessary libraries (priority score: 0.3).\n5. Initializing core memory as an empty list (priority score: 0.2).",
+    "category": "system_planning",
+    "score": 8.5,
+    "chunk_id": 2,
+    "timestamp": "2025-07-30T19:45:59+0000"
+  },
+  {
+    "question": "List the next two engineering tasks Seraphis should tackle.",
+    "answer": "The next two engineering tasks Seraphis should tackle are:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).",
+    "category": "system_planning",
+    "score": 8.3,
+    "chunk_id": 3,
+    "timestamp": "2025-07-30T19:51:13+0000"
+  },
+  {
+    "question": "What should I ship next to improve Seraphis reliability?",
+    "answer": "To improve Seraphis' reliability, focus on the following top priorities in the current build:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).\n3. Structuring refined data into a specific format (priority score: 0.4).\n4. Importing necessary libraries (priority score: 0.3).\n5. Initializing core memory as an empty list (priority score: 0.2).",
+    "category": "system_planning",
+    "score": 8.5,
+    "chunk_id": 2,
+    "timestamp": "2025-07-30T19:56:54+0000"
   }
 ]
