@@ -1,88 +1,18 @@
 [
   {
-    "chunkId": 1,
-    "chunk": "import json",
-    "tags": [
-      "python",
-      "coding",
-      "import"
-    ],
-    "category": "Programming",
-    "priorityScore": 0.3
+    "question": "What are the top priorities in Seraphis' current build?",
+    "answer": "The top priorities in Seraphis' current build are:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).\n3. Structuring refined data into a specific format (priority score: 0.4).\n4. Importing necessary libraries (priority score: 0.3).\n5. Initializing core memory as an empty list (priority score: 0.2).",
+    "category": "system_self_knowledge",
+    "score": 9.0,
+    "chunk_id": 1,
+    "timestamp": "2025-07-30T18:19:08+0000"
   },
   {
-    "chunkId": 2,
-    "chunk": "# Load reflected memory\nwith open(\"reflected_memory.json\", \"r\", encoding=\"utf-8\") as f:\n    reflected_data = json.load(f)",
-    "tags": [
-      "json",
-      "file-loading",
-      "data-processing"
-    ],
-    "category": "Programming and Development",
-    "priorityScore": 0.6
-  },
-  {
-    "chunkId": 3,
-    "chunk": "core_memory = []",
-    "tags": [
-      "core_memory",
-      "empty_list"
-    ],
-    "category": "Data Structures",
-    "priorityScore": 0.2
-  },
-  {
-    "chunkId": 4,
-    "chunk": "for entry in reflected_data:\n    chunk = entry.get(\"original\", \"\")\n    summary = entry.get(\"step_1\", \"\")\n    insight = entry.get(\"step_2\", \"\")\n    application = entry.get(\"step_3\", \"\")",
-    "tags": [
-      "data_processing",
-      "python",
-      "coding"
-    ],
-    "category": "Programming",
-    "priorityScore": 0.6
-  },
-  {
-    "chunkId": 5,
-    "chunk": "refined = {\n        \"chunk\": chunk,\n        \"summary\": summary,\n        \"insight\": insight,\n        \"application\": application\n    }",
-    "tags": [
-      "coding",
-      "data-structure",
-      "python"
-    ],
-    "category": "Programming",
-    "priorityScore": 0.4
-  },
-  {
-    "chunkId": 6,
-    "chunk": "core_memory.append(refined)",
-    "tags": [
-      "coding",
-      "data_storage"
-    ],
-    "category": "Programming",
-    "priorityScore": 0.4
-  },
-  {
-    "chunkId": 7,
-    "chunk": "# Save the final version\nwith open(\"core_memory.json\", \"w\", encoding=\"utf-8\") as f:\n    json.dump(core_memory, f, ensure_ascii=False, indent=2)",
-    "tags": [
-      "json",
-      "file-saving",
-      "core_memory"
-    ],
-    "category": "Data Management",
-    "priorityScore": 0.7
-  },
-  {
-    "chunkId": 8,
-    "chunk": "print(\"🧠 Core memory finalized. Saved to core_memory.json\")",
-    "tags": [
-      "core_memory",
-      "json",
-      "finalized"
-    ],
-    "category": "System Operations",
-    "priorityScore": 0.5
+    "question": "What are the top priorities in Seraphis' current build?",
+    "answer": "The top priorities in Seraphis' current build are:\n\n1. Loading reflected memory from a JSON file (priority score: 0.6).\n2. Processing data entries to extract original content, summaries, insights, and applications (priority score: 0.6).\n3. Structuring refined data into a specific format (priority score: 0.4).\n4. Importing necessary libraries (priority score: 0.3).\n5. Initializing core memory as an empty list (priority score: 0.2).",
+    "category": "system_self_knowledge",
+    "score": 9.0,
+    "chunk_id": 1,
+    "timestamp": "2025-07-30T18:27:26+0000"
   }
 ]

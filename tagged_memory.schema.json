@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Tagged Memory",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "chunk_id", "question", "answer", "category", "score", "timestamp"],
+    "properties": {
+      "id": { "type": "integer", "minimum": 1 },
+      "chunk_id": { "type": "integer", "minimum": 1 },
+      "question": { "type": "string", "minLength": 1 },
+      "answer": { "type": "string", "minLength": 1 },
+      "category": { "type": "string", "minLength": 1 },
+      "score": { "type": "number", "minimum": 0, "maximum": 10 },
+      "timestamp": { "type": "string", "format": "date-time" }
+    },
+    "additionalProperties": false
+  }
+}
