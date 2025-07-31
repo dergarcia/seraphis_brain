@@ -238,5 +238,29 @@
     "score": 7.7,
     "chunk_id": 10,
     "timestamp": "2025-07-31T22:38:19+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify that reflected memory loads correctly from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original source.\n\n2. **Processing Data Entries**\n   - Ensure all data entries are processed without errors.\n   - Confirm that outputs match expected formats (original content, summaries, insights, applications).\n\n3. **Structuring Refined Data**\n   - Validate that refined data is structured according to the specified format.\n   - Check for consistency and accuracy in the structured output.\n\n4. **Importing Necessary Libraries**\n   - Verify that all required libraries are imported successfully.\n   - Check for any missing dependencies or errors during import.\n\n5. **Initializing Core Memory**\n   - Ensure core memory initializes as an empty list without issues.\n   - Confirm that subsequent operations can access the initialized memory correctly.\n\n**Notes:**\n- Prioritize tasks based on their impact on reliability and velocity.\n- Document any issues encountered during testing for follow-up.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-07-31T23:07:42+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Processing Data Entries**\n   - Ensure all data entries are processed correctly.\n   - Confirm extraction of original content, summaries, insights, and applications matches expected formats.\n\n3. **Structuring Refined Data**\n   - Validate that refined data is structured into the specified format.\n   - Check for consistency and accuracy in the output.\n\n4. **Importing Necessary Libraries**\n   - Ensure all required libraries are imported without errors.\n   - Verify that library versions are compatible with the current build.\n\n5. **Initializing Core Memory**\n   - Confirm that core memory initializes as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting**\n   - Document any issues found during the smoke test.\n   - Report findings to the engineering team for immediate attention. \n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure functionality and reliability.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-07-31T23:07:57+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Processing Data Entries**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats (original content, summaries, insights, applications).\n\n3. **Structuring Refined Data**\n   - Validate that refined data is structured into the specified format.\n   - Check for consistency and correctness in data structure.\n\n4. **Importing Necessary Libraries**\n   - Confirm that all required libraries are imported without errors.\n   - Test functionality that relies on these libraries.\n\n5. **Initializing Core Memory**\n   - Ensure core memory initializes as an empty list.\n   - Verify that subsequent processes can access and utilize core memory correctly.\n\n**Notes:**\n- Each checklist item should be executed and documented for any issues encountered.\n- Prioritize tasks based on the current build's priority scores.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-07-31T23:08:11+0000"
   }
 ]
