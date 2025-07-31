@@ -1,6 +1,11 @@
-# retrieve.ps1 — forwards all args to seraphis_api.py retrieve
-$ErrorActionPreference = "Stop"
-$env:PYTHONUTF8 = "1"
+param(
+  [Parameter(Mandatory=$true)][string]$q,
+  [int]$k = 5
+)
 
-$script = Join-Path $PSScriptRoot "seraphis_api.py"
-python $script retrieve @args
+# URL‑encode the query to be safe
+$encoded = [uri]::EscapeDataString($q)
+
+Invoke-RestMethod `
+  -Uri "http://127.0.0.1:5057/retrieve?query=$encoded&top_k=$k" `
+  -Method Get

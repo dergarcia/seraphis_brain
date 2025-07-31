@@ -158,5 +158,13 @@
     "score": 7.7,
     "chunk_id": 10,
     "timestamp": "2025-07-31T00:34:26+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n\n2. **Data Processing**\n   - Ensure all data entries are processed correctly.\n   - Validate that outputs match expected formats and content.\n\n3. **Data Structuring**\n   - Confirm that refined data is structured into the specified format.\n\n4. **Library Imports**\n   - Check that all necessary libraries are imported without issues.\n\n5. **Core Memory Initialization**\n   - Verify that core memory initializes as an empty list.\n\n6. **Error Handling**\n   - Test error handling mechanisms for loading and processing tasks.\n\n7. **Integration Testing**\n   - Conduct integration tests to ensure all components work together seamlessly.\n\n8. **Documentation Review**\n   - Ensure that all changes and processes are documented accurately.\n\n9. **Performance Metrics**\n   - Review performance metrics to identify any bottlenecks or issues.\n\n10. **Feedback Loop**\n    - Gather feedback from the team on any issues encountered during the week.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-07-31T02:09:33+0000"
   }
 ]

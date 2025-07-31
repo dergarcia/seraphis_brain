@@ -1,6 +1,1 @@
-# reason.ps1 — runs the reasoner via seraphis_api.py
-$ErrorActionPreference = "Stop"
-$env:PYTHONUTF8 = "1"
-
-$script = Join-Path $PSScriptRoot "seraphis_api.py"
-python $script reason
+Invoke-RestMethod -Uri "http://127.0.0.1:5057/reason" -Method Post
