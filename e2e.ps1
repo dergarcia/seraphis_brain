@@ -5,7 +5,7 @@
 
 param(
   [string]$q = "smoke checklist",
-  [int]$k = 5
+  [int]   $k = 5
 )
 
 $ErrorActionPreference = "Stop"
@@ -18,6 +18,9 @@ $ROOT = if ($PSScriptRoot) {
 } else {
   (Get-Location).Path
 }
+
+# CRITICAL: run from the repo root, not System32
+Set-Location -Path $ROOT
 
 function Write-Step([string]$msg) {
   Write-Host "`n==> $msg" -ForegroundColor Cyan
@@ -35,14 +38,11 @@ function Start-Server-IfNeeded {
     Write-Host "Server OK = True" -ForegroundColor Green
     return
   }
-
   Write-Host "Server not running. Starting seraphis_server.py..." -ForegroundColor Yellow
-  $py = (Get-Command python.exe -ErrorAction Stop).Source
+  $py     = (Get-Command python.exe -ErrorAction Stop).Source
   $server = Join-Path $ROOT "seraphis_server.py"
-  # Start minimized (separate window) and do not block this shell
-  Start-Process -FilePath $py -ArgumentList @($server) -WindowStyle Minimized | Out-Null
+  Start-Process -FilePath $py -ArgumentList $server -WindowStyle Minimized | Out-Null
 
-  # Wait up to 20s for /ping to come alive
   $deadline = (Get-Date).AddSeconds(20)
   do {
     Start-Sleep -Milliseconds 500
@@ -83,14 +83,20 @@ function Show-Log([int]$lines=80) {
   }
 }
 
-# Safe Python runner (avoids REPL/AttributeError hang)
+# Safe Python runner that passes all tokens ($args) through
 function Run-Py {
-  param([string[]]$pyArgs)
-
+  # locate python
   $py = (Get-Command python.exe -ErrorAction Stop).Source
-  $toShow = ($pyArgs | ForEach-Object { if ($_ -match '\s') { '"{0}"' -f $_ } else { $_ } }) -join ' '
-  Write-Host "[RUN] python $toShow"
-  & $py $pyArgs
+
+  # build display string
+  $display = $args | ForEach-Object {
+    if ($_ -match '\s') { '"{0}"' -f $_ } else { $_ }
+  } | Out-String
+  $display = $display -join ' '
+  Write-Host "[RUN] python $display"
+
+  # invoke
+  & $py @args
   if ($LASTEXITCODE -ne 0) { throw "python failed exit=$LASTEXITCODE" }
 }
 
@@ -105,19 +111,23 @@ try {
   Write-Host "Tail started. Use tail_server_stop.ps1 to stop."
 
   Write-Step "3) Learn via adapter"
-  Run-Py (Join-Path $ROOT "kilo_seraphis_adapter.py") "learn" `
-         "--query"   "Draft a weekly QA smoke checklist for Seraphis." `
-         "--category" "operations" `
-         "--score"   "7.7" `
-         "--chunk-id" "10"
+  Run-Py `
+    (Join-Path $ROOT "kilo_seraphis_adapter.py") `
+    learn `
+    --query "Draft a weekly QA smoke checklist for Seraphis." `
+    --category operations `
+    --score 7.7 `
+    --chunk-id 10
 
   Write-Step "4) Retrieve via adapter"
-  Run-Py (Join-Path $ROOT "kilo_seraphis_adapter.py") "retrieve" `
-         "--query" $q `
-         "--top-k" $k
+  Run-Py `
+    (Join-Path $ROOT "kilo_seraphis_adapter.py") `
+    retrieve `
+    --query $q `
+    --top-k $k
 
   Write-Step "5) Reason via adapter"
-  Run-Py (Join-Path $ROOT "kilo_seraphis_adapter.py") "reason"
+  Run-Py (Join-Path $ROOT "kilo_seraphis_adapter.py") reason
 
   Show-Log 80
   $ok = $true

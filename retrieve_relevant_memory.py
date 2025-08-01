@@ -4,14 +4,20 @@ import sys
 import json
 import argparse
 from typing import List, Dict
+from pathlib import Path
+
 from dotenv import load_dotenv
 from openai import OpenAI
+
+# ---------- Repo-anchored working directory (prevents System32 path bugs) ----------
+ROOT = Path(__file__).parent.resolve()
+os.chdir(ROOT)
 
 # ---------- Setup ----------
 load_dotenv()
 client = OpenAI()
 
-MEMORY_FOLDER = "Memory"
+MEMORY_FOLDER = ROOT / "Memory"
 MEMORY_FILES = [
     "synthesized_memory.md",
     "seraphis_memory.md",
@@ -19,20 +25,20 @@ MEMORY_FILES = [
     "normalized_inputs.md",
     "compressed_memory.md",
 ]
-MEMORY_PATHS = [os.path.join(MEMORY_FOLDER, f) for f in MEMORY_FILES]
+MEMORY_PATHS = [MEMORY_FOLDER / f for f in MEMORY_FILES]
 
 
 # ---------- Helpers ----------
-def load_chunks_from_md(filepath: str) -> List[Dict[str, str]]:
+def load_chunks_from_md(filepath: Path) -> List[Dict[str, str]]:
     """Extract (Query, Answer) chunks from a markdown file."""
-    with open(filepath, "r", encoding="utf-8") as f:
+    with open(str(filepath), "r", encoding="utf-8") as f:
         content = f.read()
 
     # Matches **User Query:** or **Q:** followed by **Answer:** or **A:**
     pattern = r"\*\*(?:User Query|Q):\*\*(.*?)\n.*?\*\*(?:Answer|A):\*\*(.*?)(?=\n\*\*|$)"
     chunks = re.findall(pattern, content, re.DOTALL)
     return [
-        {"file": os.path.basename(filepath), "query": q.strip(), "answer": a.strip()}
+        {"file": filepath.name, "query": q.strip(), "answer": a.strip()}
         for q, a in chunks
         if q.strip() and a.strip()
     ]
@@ -42,7 +48,7 @@ def gather_memory() -> List[Dict[str, str]]:
     """Load all available memory chunks from the configured files."""
     all_chunks: List[Dict[str, str]] = []
     for path in MEMORY_PATHS:
-        if os.path.exists(path):
+        if path.exists():
             try:
                 all_chunks.extend(load_chunks_from_md(path))
             except Exception:
@@ -68,7 +74,6 @@ def synthesize_answer(query: str, chunks: List[Dict[str, str]]) -> str:
         "Respond with the most accurate and insightful answer using the memory above."
     )
 
-    # Keep current API style for compatibility
     resp = client.chat.completions.create(
         model="gpt-4",
         messages=[{"role": "user", "content": prompt}],
@@ -78,18 +83,17 @@ def synthesize_answer(query: str, chunks: List[Dict[str, str]]) -> str:
 
 
 def save_to_synthesized(query: str, answer: str) -> None:
-    os.makedirs(MEMORY_FOLDER, exist_ok=True)
-    filepath = os.path.join(MEMORY_FOLDER, "synthesized_memory.md")
-    with open(filepath, "a", encoding="utf-8") as f:
+    MEMORY_FOLDER.mkdir(parents=True, exist_ok=True)
+    filepath = MEMORY_FOLDER / "synthesized_memory.md"
+    with open(str(filepath), "a", encoding="utf-8") as f:
         f.write(f"\n\n**User Query:** {query}\n\n**Answer:** {answer}\n\n---")
 
 
 def safe_print(label: str, text: str) -> None:
-    """Print text without breaking on cp1252 consoles (ASCII label, UTF‑8 body)."""
+    """Print text without breaking on cp1252 consoles (ASCII label, UTF-8 body)."""
     try:
         print(label + text)
     except UnicodeEncodeError:
-        # Fallback: write UTF-8 bytes directly
         sys.stdout.buffer.write((label + text).encode("utf-8", errors="replace"))
         sys.stdout.buffer.write(b"\n")
 
