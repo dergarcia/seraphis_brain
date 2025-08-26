@@ -262,5 +262,229 @@
     "score": 7.7,
     "chunk_id": 10,
     "timestamp": "2025-07-31T23:08:11+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing**\n   - Ensure all data entries are processed correctly.\n   - Confirm extraction of original content, summaries, insights, and applications matches expected formats.\n\n3. **Data Structuring**\n   - Validate that refined data is structured into the specified format.\n   - Check for consistency and correctness in the output format.\n\n4. **Library Imports**\n   - Verify that all necessary libraries are imported without errors.\n   - Check for any missing dependencies or version conflicts.\n\n5. **Core Memory Initialization**\n   - Ensure core memory is initialized as an empty list.\n   - Confirm that no residual data exists from previous sessions.\n\n6. **Regression Testing**\n   - Run regression tests to ensure existing functionalities are unaffected by recent changes.\n   - Document any discrepancies or failures for further investigation.\n\n7. **Documentation Review**\n   - Review documentation for any updates related to the current build.\n   - Ensure all changes are accurately reflected in user guides and technical documentation.\n\n8. **Feedback Loop**\n   - Collect feedback from team members on the current build's performance.\n   - Document any issues or suggestions for improvement.\n\nThis checklist ensures that key functionalities are verified and that Seraphis maintains reliability and performance throughout the development cycle.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T00:13:01+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Processing Data Entries**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Structuring Refined Data**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency and correctness of the structured data.\n\n4. **Importing Necessary Libraries**\n   - Verify that all required libraries are imported without issues.\n   - Ensure compatibility of libraries with the current build.\n\n5. **Initializing Core Memory**\n   - Confirm that core memory initializes as an empty list.\n   - Check for any errors during initialization.\n\n**Notes:**\n- Each item should be tested in a controlled environment.\n- Document any issues encountered and report them for further investigation.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T00:13:16+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Processing Data Entries**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Structuring Refined Data**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency and accuracy of the structured data.\n\n4. **Importing Necessary Libraries**\n   - Confirm that all required libraries are imported without errors.\n   - Ensure compatibility of libraries with the current build.\n\n5. **Initializing Core Memory**\n   - Verify that core memory initializes as an empty list.\n   - Check for any errors during initialization.\n\n**Notes:**\n- Focus on high-priority tasks with a score of 0.6 for optimal reliability and velocity improvements.\n- Document any issues encountered during testing for follow-up.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T00:13:32+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Confirm data integrity against the original JSON file.\n\n2. **Processing Data Entries**\n   - Ensure all data entries are processed correctly.\n   - Validate that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Structuring Refined Data**\n   - Check that refined data is structured into the specified format.\n   - Review for consistency and accuracy in the structured output.\n\n4. **Importing Necessary Libraries**\n   - Confirm that all required libraries are imported without issues.\n   - Test functionality that relies on these libraries.\n\n5. **Initializing Core Memory**\n   - Verify that core memory initializes as an empty list.\n   - Check for any errors or exceptions during initialization.\n\n6. **Documentation and Reporting**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution. \n\nThis checklist ensures that the top priorities in Seraphis' current build are thoroughly tested for reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T20:32:44+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Processing Data Entries**\n   - Ensure all data entries are processed correctly.\n   - Confirm extraction of original content, summaries, insights, and applications.\n   - Validate output formats and content accuracy.\n\n3. **Structuring Refined Data**\n   - Check that refined data is structured into the specified format.\n   - Verify consistency and correctness of the structured data.\n\n4. **Importing Necessary Libraries**\n   - Confirm all required libraries are imported without errors.\n   - Check for any missing dependencies.\n\n5. **Initializing Core Memory**\n   - Ensure core memory initializes as an empty list.\n   - Validate that subsequent processes can interact with the core memory correctly.\n\n**Notes:**\n- Each checklist item should be completed and documented for traceability.\n- Any issues found should be logged and prioritized for resolution.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T20:32:58+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Confirm data integrity against the original JSON file.\n\n2. **Processing Data Entries**\n   - Ensure all data entries are processed correctly.\n   - Validate that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Structuring Refined Data**\n   - Check that refined data is structured into the specified format.\n   - Review for consistency and accuracy in data formatting.\n\n4. **Importing Necessary Libraries**\n   - Confirm that all required libraries are imported without errors.\n   - Validate that library versions are compatible with the current build.\n\n5. **Initializing Core Memory**\n   - Ensure core memory initializes as an empty list.\n   - Test for any issues during initialization.\n\n6. **Documentation and Reporting**\n   - Document any issues encountered during testing.\n   - Report findings to the engineering team for further action. \n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T20:33:13+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis**\n\n1. **Loading Reflected Memory**\n   - Verify that reflected memory loads correctly from a JSON file.\n   - Check for any loading errors and ensure data integrity.\n\n2. **Processing Data Entries**\n   - Confirm that data entries are processed accurately to extract original content, summaries, insights, and applications.\n   - Validate that outputs match expected formats and content.\n\n3. **Structuring Refined Data**\n   - Ensure that refined data is structured into the specified format without discrepancies.\n\n4. **Importing Necessary Libraries**\n   - Check that all required libraries are imported successfully and are functioning as expected.\n\n5. **Initializing Core Memory**\n   - Verify that core memory initializes as an empty list without issues.\n\n6. **Error Logging**\n   - Ensure that any errors encountered during the above processes are logged appropriately for further investigation.\n\n7. **Integration Testing**\n   - Conduct integration tests to confirm that all components work together seamlessly after the above checks. \n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T20:39:40+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Confirm data integrity against the original JSON file.\n\n2. **Processing Data Entries:**\n   - Ensure all data entries are processed correctly.\n   - Validate outputs for original content, summaries, insights, and applications.\n\n3. **Structuring Refined Data:**\n   - Check that refined data is structured in the specified format.\n   - Confirm that all required fields are present and correctly formatted.\n\n4. **Importing Necessary Libraries:**\n   - Verify that all necessary libraries are imported without errors.\n   - Ensure compatibility of libraries with the current build.\n\n5. **Initializing Core Memory:**\n   - Confirm that core memory initializes as an empty list.\n   - Check for any errors during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues encountered during testing.\n   - Report findings to the engineering team for resolution. \n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T20:39:55+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T20:40:09+0000"
+  },
+  {
+    "question": "Define Seraphis' core mission, constraints, and execution style.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "reflected",
+    "score": 8.8,
+    "chunk_id": 1,
+    "timestamp": "2025-08-01T22:07:04+0000"
+  },
+  {
+    "question": "List the top engineering priorities for reliability this week.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "reflected",
+    "score": 8.5,
+    "chunk_id": 2,
+    "timestamp": "2025-08-01T22:07:10+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:07:19+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:07:30+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:07:43+0000"
+  },
+  {
+    "question": "Define Seraphis' core mission, constraints, and execution style.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "reflected",
+    "score": 8.8,
+    "chunk_id": 1,
+    "timestamp": "2025-08-01T22:09:10+0000"
+  },
+  {
+    "question": "List the top engineering priorities for reliability this week.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "reflected",
+    "score": 8.5,
+    "chunk_id": 2,
+    "timestamp": "2025-08-01T22:09:16+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:09:25+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:09:37+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:09:47+0000"
+  },
+  {
+    "question": "Define Seraphis' core mission, constraints, and execution style.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "reflected",
+    "score": 8.8,
+    "chunk_id": 1,
+    "timestamp": "2025-08-01T22:20:42+0000"
+  },
+  {
+    "question": "List the top engineering priorities for reliability this week.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "reflected",
+    "score": 8.5,
+    "chunk_id": 2,
+    "timestamp": "2025-08-01T22:20:49+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:20:58+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:21:09+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:21:23+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:22:08+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T22:43:47+0000"
+  },
+  {
+    "question": "Draft a weekly QA smoke checklist for Seraphis.",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "operations",
+    "score": 7.7,
+    "chunk_id": 10,
+    "timestamp": "2025-08-01T23:21:23+0000"
+  },
+  {
+    "question": "What is Seraphis' mission?",
+    "answer": "**Weekly QA Smoke Checklist for Seraphis:**\n\n1. **Loading Reflected Memory:**\n   - Verify successful loading of reflected memory from a JSON file.\n   - Check for errors during the loading process.\n   - Validate data integrity against the original JSON file.\n\n2. **Data Processing:**\n   - Ensure all data entries are processed correctly.\n   - Confirm that outputs match expected formats and content (original content, summaries, insights, applications).\n\n3. **Data Structuring:**\n   - Check that refined data is structured into the specified format.\n   - Validate the consistency of the structured data.\n\n4. **Library Imports:**\n   - Confirm that all necessary libraries are imported without errors.\n   - Verify that the correct versions of libraries are being used.\n\n5. **Core Memory Initialization:**\n   - Ensure core memory is initialized as an empty list.\n   - Check for any issues during initialization.\n\n6. **Documentation and Reporting:**\n   - Document any issues found during testing.\n   - Report findings to the engineering team for resolution.\n\nThis checklist focuses on the top priorities in Seraphis' current build to ensure reliability and functionality.",
+    "category": "core_alignment",
+    "score": 8.5,
+    "chunk_id": 2,
+    "timestamp": "2025-08-01T23:56:43+0000"
   }
 ]
